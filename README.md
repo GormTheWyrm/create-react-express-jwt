@@ -64,7 +64,8 @@ git commit -m "Initial commit"
 1. Go onto your heroku account and link your repository through the UI
 2. Go to resources and find mLab as a Add-on
 3. Provision a Mongo Database
-4. Go back and click "Deploy"
+4. Go to Settings -> Config Vars and add a key of `SERVER_SECRET` with whatever value you want (this is in place of your local .env file)
+5. Go back and click "Deploy"
 
 ## Tests/Linting
 
